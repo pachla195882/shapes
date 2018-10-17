@@ -24,3 +24,8 @@ class Shape(object):
             'area': self.area(),
             'perimeter': self.perimeter()
         }
+
+    def draw(self):
+        """
+        Shows shape on the plot.
+        """
